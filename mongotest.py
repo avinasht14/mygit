@@ -1,12 +1,11 @@
 import pymongo
-client = pymongo.MongoClient("mongodb+srv://avinashreddy:WmXqpd5L.4-9wc@cluster0.goi2j.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://avinashreddy:avinash123@cluster0.hzqac.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
-print(db)
 
 d = {
     "name":"avinash",
     "email" : "avinash.t14@gmail.com",
-    "surname" : "talakola"
+    "surname" : "reddy"
 }
 db1 = client['mongotest']
 coll = db1['test']
